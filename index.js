@@ -99,14 +99,6 @@ function writeToFile(fileName, data, license, githubURL) {
     })
 }
 
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
-
 
 
 

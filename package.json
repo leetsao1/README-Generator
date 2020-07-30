@@ -1,15 +1,27 @@
 {
-  "name": "static-site",
+  "name": "good-readme",
   "version": "1.0.0",
-  "description": "",
+  "description": "Version: 1.0   URL: wwww.goodreadme.com   GITHUB: https://github.com/leetsao1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lee Tsao",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leetsao1/README-Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/leetsao1/README-Generator/issues"
+  },
+  "homepage": "https://github.com/leetsao1/README-Generator#readme"
 }
