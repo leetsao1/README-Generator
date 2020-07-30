@@ -78,13 +78,11 @@ const licenseDesc = require("./utils/license");
       let queryURL = `https://api.github.com/users/${response.username}/repos?per_page=100`;
       axios.get(queryURL).then(function(res) {
         console.log(res.data[0].owner.html_url);
-        // response.githubURL = res.data[0].owner.html_url;
         let githubURL = res.data[0].owner.html_url;
-        writeToFile('README.md', response, licenseDesc, githubURL );
+        writeToFile('README-test.md', response, licenseDesc, githubURL );
 
       });
 
-      // writeToFile('README.md', response, licenseDesc);
       console.log ("README successfully created!")
 
     }).catch(function(error){

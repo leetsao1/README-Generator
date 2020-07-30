@@ -1,7 +1,9 @@
-## Test readme
+## good-readme
   Version: 1.0.0
-  URL: www....
+  URL: https://github.com/leetsao1/README-Generator
   GITHUB: https://github.com/leetsao1
+
+  ![](demo.gif)
 
   License: MIT:
   
@@ -14,18 +16,18 @@
 
   ## Description, Installation, Usage, Contributing, and Tests
 
-  * ....
+  * good-README is a javascript application that runs on node, and prompts the user a series questions and turns the answers into a formatted README.txt file.
   
-  * Installation: do this do that
+  * Installation: To use Good-README you must have node installed in your computer. NPM packages required are ‘Inquirer’ and ‘Axios’.
 
 
-  * Usage: go here do that
+  * Usage: Download and install on desired folder. Open the command window and type node index.js to run the program.
 
 
 
   * Contributors: undefined
 
-  * Test: ////
+  * Test: NA
 
-  * Questions: ???
+  * Questions: Direct all questions directly to leetsao1@gmail.com
 
